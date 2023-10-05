@@ -50,7 +50,7 @@ public class Mail extends SendMail{
 		//get session object and pass the username and password
 		Session session = Session.getInstance(properties,new javax.mail.Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
-				return new PasswordAuthentication("kavindujanith4436@gmail.com", "varuzoaodiejmwpt");
+				return new PasswordAuthentication("****enter your sending email here*****", "**your app password**");
 	        }
 		});
 		
